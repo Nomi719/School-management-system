@@ -23,6 +23,8 @@ mongoose
     .then(console.log("Connected to MongoDB"))
     .catch((err) => console.log("NOT CONNECTED TO NETWORK", err))
 
+
+
 app.use('/', Routes);
 app.get('/', (req, res) => {
     res.send('heyy noman from backend')
